@@ -17,14 +17,14 @@ export async function getStaticProps() {
 
 export default function Home({ allPostsData }) {
   return (
-    <Layout home>
+    <f home>
       <Head>
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
         <p>
-          Hello, I'm <b>Yasu</b>. I'm a software engineer and a translator. You
-          can contact me on...something
+          Hello, I am <b>Yasu</b>. I am a software engineer and a translator.
+          You can contact me on...
         </p>
         <p>
           (This is a sample website - you’ll be building a site like this on{" "}
@@ -47,6 +47,6 @@ export default function Home({ allPostsData }) {
           ))}
         </ul>
       </section>
-    </Layout>
+    </f>
   );
 }
